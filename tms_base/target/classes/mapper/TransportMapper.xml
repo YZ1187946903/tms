@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.kj0901.tms.base.dao.TransportDao">
+    <select id="getInfoDTOList" parameterType="map" resultType="cn.kj0901.tms.base.entity.dto.TransportInfoDTO">
+        select
+            t.id,
+            t.status,
+            t.create_time,
+            t.send_time,
+            t.excep_time,
+            t.excep_end_time,
+            t.end_time,
+            t.excep_info,
+            tr.truck_num truckNum,
+            d.name driverName,
+            u.mobile driverMobile
+        from
+            tms_transport t
+            left join tms_truck tr on tr.id = t.truck_id
+            left join tms_driver d on d.id = t.driver_id
+            left join tms_user u on u.id = t.driver_id
+        where
+            t.del_state = 0
+            <if test="id!=null and id!=''">
+                and t.id = #{id}
+            </if>
+            <if test="status!=null">
+                and t.status = #{status}
+            </if>
+            <if test="startTime!=null and endTime!=null">
+                and (t.create_time &gt;= #{startTime} and t.create_time &lt;= #{endTime})
+            </if>
+        order by FIELD(t.status,4,0,1,2,3) ,t.create_time
+
+    </select>
+
+    <update id="endStatusByList">
+        update
+        tms_transport
+        set
+        status = 3
+        where id in
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+
+    </update>
+</mapper>

@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.254.1:3306/tms?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+  mvc:
+    static-path-pattern: /file/**
+  resources:
+    static-locations: file:e:/temp/
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: cn.kj0901.tms.base.entity
+logging:
+  config: classpath:config/logback-spring.xml
+  level:
+    root: debug
+
+
+###--以下是自定义属性
+files:
+  upPath: /file/img/
+  showUrl: http://www.mytest.com/img/
+
+

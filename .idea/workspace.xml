@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fc895b6-3fed-4e09-ab3c-decb492c5a93" name="Default Changelist" comment="git init">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tms_base_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_HOME_IS_UNDEFINED/common8082/log.2022-05-07_14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_HOME_IS_UNDEFINED/common8082/log.2022-09-08_14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_HOME_IS_UNDEFINED/manage8081/log.2022-02-15_12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_HOME_IS_UNDEFINED/manage8081/log.2022-02-17_17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_HOME_IS_UNDEFINED/manage8081/log.2022-02-17_18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_HOME_IS_UNDEFINED/manage8081/log.2022-03-08_10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_HOME_IS_UNDEFINED/manage8081/log.2022-03-08_11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_HOME_IS_UNDEFINED/manage8081/log.2022-05-07_12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOG_HOME_IS_UNDEFINED/manage8081/log.2022-09-08_14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/config/AopLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/config/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/config/ResultJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/DriverDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/GoodsLockDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/NeedDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/NeedGoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/StoreDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/TransportDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/TransportReplaceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/TransportTempDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/TruckDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/TruckSiteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/TruckSiteLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/dao/WarehouseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/GoodsLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/Need.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/NeedGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/TransportReplace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/TransportTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/TruckSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/TruckSiteLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/Warehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/dto/DriverUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/dto/NeedGoodsInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/dto/NeedInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/dto/TranTempDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/dto/TransportInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/entity/dto/TruckInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/AutoGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/ParamUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/TokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/application-pord.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/config/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/DriverMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/GoodsLockMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/NeedGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/NeedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/StoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/TransportMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/TransportReplaceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/TransportTempMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/TruckMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/TruckSiteLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/TruckSiteMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/src/main/resources/mapper/WarehouseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/application-pord.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/config/AopLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/config/GlobalException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/config/ResultJson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/DriverDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/GoodsLockDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/NeedDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/NeedGoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/StoreDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/TransportDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/TransportReplaceDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/TransportTempDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/TruckDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/TruckSiteDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/TruckSiteLogDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/dao/WarehouseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/GoodsLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/Need.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/NeedGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/Store.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/Transport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/TransportReplace.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/TransportTemp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/Truck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/TruckSite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/TruckSiteLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/Warehouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/dto/DriverUserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/dto/NeedGoodsInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/dto/NeedInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/dto/TranTempDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/dto/TransportInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/entity/dto/TruckInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/util/AutoGen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/util/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/util/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/util/ParamUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/util/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/util/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/cn/kj0901/tms/base/util/TokenUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/config/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/DriverMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/GoodsLockMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/NeedGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/NeedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/StoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/TransportMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/TransportReplaceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/TransportTempMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/TruckMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/TruckSiteLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/TruckSiteMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/classes/mapper/WarehouseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_base/target/tms_base-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/src/main/docker/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/src/main/java/cn/kj0901/tms/common/Common8082.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/src/main/java/cn/kj0901/tms/common/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/target/classes/cn/kj0901/tms/common/Common8082.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/target/classes/cn/kj0901/tms/common/controller/FileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/target/common.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/target/common.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/Driver8084.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/DriverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/GoodsLockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/NeedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/NeedGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/StoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/TransportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/TransportReplaceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/TransportTempController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/TruckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/TruckSiteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/TruckSiteLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/controller/WarehouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/DriverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/GoodsLockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/NeedGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/NeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/TransportReplaceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/TransportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/TransportTempService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/TruckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/TruckSiteLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/TruckSiteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/WarehouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/DriverServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/GoodsLockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/NeedGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/NeedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/StoreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/TransportReplaceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/TransportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/TransportTempServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/TruckServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/TruckSiteLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/TruckSiteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/java/cn/kj0901/tms/driver/service/impl/WarehouseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/src/test/java/CurryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/Driver8084.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/DriverController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/GoodsLockController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/NeedController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/NeedGoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/StoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/TransportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/TransportReplaceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/TransportTempController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/TruckController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/TruckSiteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/TruckSiteLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/controller/WarehouseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/DriverService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/GoodsLockService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/NeedGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/NeedService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/StoreService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/TransportReplaceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/TransportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/TransportTempService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/TruckService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/TruckSiteLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/TruckSiteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/WarehouseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/DriverServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/GoodsLockServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/NeedGoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/NeedServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/StoreServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/TransportReplaceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/TransportServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/TransportTempServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/TruckServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/TruckSiteLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/TruckSiteServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/classes/cn/kj0901/tms/driver/service/impl/WarehouseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/test-classes/Curry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/test-classes/CurryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_driver/target/tms_driver-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/docker/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/Manage8081.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/config/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/DriverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/GoodsLockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/NeedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/NeedGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/StoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/TransportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/TransportReplaceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/TransportTempController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/TruckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/TruckSiteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/TruckSiteLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/WarehouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/DriverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/GoodsLockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/NeedGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/NeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/TransportReplaceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/TransportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/TransportTempService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/TruckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/TruckSiteLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/TruckSiteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/WarehouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/DriverServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/GoodsLockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/NeedGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/NeedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/StoreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/TransportReplaceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/TransportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/TransportTempServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/TruckServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/TruckSiteLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/TruckSiteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/WarehouseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/Manage8081.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/config/AuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/DriverController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/GoodsLockController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/NeedController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/NeedGoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/StoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/TransportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/TransportReplaceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/TransportTempController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/TruckController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/TruckSiteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/TruckSiteLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/controller/WarehouseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/DriverService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/GoodsLockService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/NeedGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/NeedService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/StoreService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/TransportReplaceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/TransportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/TransportTempService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/TruckService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/TruckSiteLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/TruckSiteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/WarehouseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/DriverServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/GoodsLockServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/NeedGoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/NeedServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/StoreServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/TransportReplaceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/TransportServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/TransportTempServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/TruckServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/TruckSiteLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/TruckSiteServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/classes/cn/kj0901/tms/manage/service/impl/WarehouseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/manage.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/manage.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_manage/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/Store8083.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/DriverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/GoodsLockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/NeedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/NeedGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/StoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/TransportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/TransportReplaceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/TransportTempController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/TruckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/TruckSiteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/TruckSiteLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/controller/WarehouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/quartz/GoodsLockJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/quartz/QuartzSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/quartz/QuartzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/DriverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/GoodsLockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/NeedGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/NeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/TransportReplaceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/TransportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/TransportTempService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/TruckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/TruckSiteLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/TruckSiteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/WarehouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/DriverServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/GoodsLockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/NeedGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/NeedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/StoreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/TransportReplaceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/TransportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/TransportTempServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/TruckServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/TruckSiteLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/TruckSiteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store/service/impl/WarehouseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/Store8083.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/DriverController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/GoodsLockController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/NeedController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/NeedGoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/StoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/TransportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/TransportReplaceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/TransportTempController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/TruckController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/TruckSiteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/TruckSiteLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/controller/WarehouseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/quartz/GoodsLockJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/quartz/QuartzSchedule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/quartz/QuartzTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/DriverService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/GoodsLockService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/NeedGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/NeedService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/StoreService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/TransportReplaceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/TransportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/TransportTempService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/TruckService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/TruckSiteLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/TruckSiteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/WarehouseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/DriverServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/GoodsLockServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/NeedGoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/NeedServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/StoreServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/TransportReplaceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/TransportServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/TransportTempServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/TruckServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/TruckSiteLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/TruckSiteServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/classes/cn/kj0901/tms/store/service/impl/WarehouseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms_store/target/tms_store-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/AdminController.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="/Library/Java/MavenRepository" />
+        <option name="userSettingsFile" value="/Library/Java/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1qjs5NMmEhC8f2BHhenYTjKfsHJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/tms_store/src/main/java/cn/kj0901/tms/store" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.25076452" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work\4-ke_project\kj0901\k9_tms\tms_common\src\main\java\cn\kj0901\tms\common" />
+      <recent name="E:\Work\4-ke_project\kj0901\k9_tms\tms_common\src\main\java\cn\kj0901\tms\common\controller" />
+      <recent name="E:\Work\4-ke_project\kj0901\k9_tms\tms_base\src\main\java\cn\kj0901\tms\base\util" />
+      <recent name="E:\Work\4-ke_project\kj0901\k9_tms\tms_common\src\main\docker" />
+      <recent name="E:\Work\4-ke_project\kj0901\k9_tms\tms_driver\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work\4-ke_project\kj0901\k9_tms\tms_manage\src\main\resources" />
+      <recent name="E:\Work\4-ke_project\kj0901\k9_tms\tms_base\src\main\resources" />
+      <recent name="E:\Work\4-ke_project\kj0901\k9_tms\tms_manage\src\main\java" />
+      <recent name="E:\Work\4-ke_project\kj0901\k9_tms\tms_base\src\main\java\cn\kj0901\tms" />
+      <recent name="E:\Work\4-ke_project\kj0901\k9_tms\tms_base\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.kj0901.tms.manage.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CurryTest.getDateByTimeZone">
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.kj0901.tms.base.util.MD5Util" />
+      <module name="tms_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kj0901.tms.base.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurryTest.getDateByTimeZone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tms_driver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CurryTest" />
+      <option name="METHOD_NAME" value="getDateByTimeZone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurryTest.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tms_driver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CurryTest" />
+      <option name="METHOD_NAME" value="mainTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Common8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tms_common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kj0901.tms.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kj0901.tms.common.Common8082" />
+      <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Manage8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tms_manage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kj0901.tms.manage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.kj0901.tms.manage.Manage8081" />
+      <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MD5Util" />
+      <item itemvalue="JUnit.CurryTest.mainTest" />
+      <item itemvalue="JUnit.CurryTest.getDateByTimeZone" />
+      <item itemvalue="Spring Boot.Common8082" />
+      <item itemvalue="Spring Boot.Manage8081" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Manage8081" />
+        <item itemvalue="Spring Boot.Common8082" />
+        <item itemvalue="JUnit.CurryTest.getDateByTimeZone" />
+        <item itemvalue="JUnit.CurryTest.mainTest" />
+        <item itemvalue="Application.MD5Util" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1618911868348" text="adminId" recursive="true" caseInsensitive="true" type="JAVA" pattern_context="default" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fc895b6-3fed-4e09-ab3c-decb492c5a93" name="Default Changelist" comment="" />
+      <created>1617604150959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617604150959</updated>
+      <workItem from="1617604156973" duration="10257000" />
+      <workItem from="1617615679640" duration="850000" />
+      <workItem from="1617631578581" duration="598000" />
+      <workItem from="1617682927670" duration="2270000" />
+      <workItem from="1617688874394" duration="296000" />
+      <workItem from="1617689325960" duration="12668000" />
+      <workItem from="1617707132128" duration="2962000" />
+      <workItem from="1617771923054" duration="13839000" />
+      <workItem from="1617802722152" duration="3731000" />
+      <workItem from="1617861524735" duration="13952000" />
+      <workItem from="1617884963171" duration="242000" />
+      <workItem from="1617929722273" duration="410000" />
+      <workItem from="1617934777879" duration="836000" />
+      <workItem from="1617948518263" duration="13146000" />
+      <workItem from="1618015271441" duration="183000" />
+      <workItem from="1618147281591" duration="5516000" />
+      <workItem from="1618207780771" duration="15284000" />
+      <workItem from="1618272438920" duration="953000" />
+      <workItem from="1618281940723" duration="5026000" />
+      <workItem from="1618293521435" duration="17028000" />
+      <workItem from="1618319075195" duration="33000" />
+      <workItem from="1618380337825" duration="13667000" />
+      <workItem from="1618403984542" duration="4049000" />
+      <workItem from="1618466366981" duration="14162000" />
+      <workItem from="1618485140698" duration="2954000" />
+      <workItem from="1618495623976" duration="2824000" />
+      <workItem from="1618547560358" duration="839000" />
+      <workItem from="1618553185823" duration="7135000" />
+      <workItem from="1618748888597" duration="10136000" />
+      <workItem from="1618805546539" duration="1627000" />
+      <workItem from="1618817526258" duration="8978000" />
+      <workItem from="1618834715283" duration="60000" />
+      <workItem from="1618835030289" duration="5139000" />
+      <workItem from="1618897579973" duration="153000" />
+      <workItem from="1618898588018" duration="9338000" />
+      <workItem from="1618975564290" duration="1302000" />
+      <workItem from="1618984758053" duration="8437000" />
+      <workItem from="1619051423726" duration="6091000" />
+      <workItem from="1619071633746" duration="55000" />
+      <workItem from="1621833638744" duration="366000" />
+      <workItem from="1621834038582" duration="5185000" />
+      <workItem from="1644833632400" duration="3255000" />
+      <workItem from="1644895665420" duration="820000" />
+      <workItem from="1644896513354" duration="2671000" />
+      <workItem from="1645091325777" duration="2455000" />
+      <workItem from="1645172609242" duration="623000" />
+      <workItem from="1645774032369" duration="6438000" />
+      <workItem from="1646029132887" duration="3073000" />
+      <workItem from="1646625162600" duration="3079000" />
+      <workItem from="1646728199465" duration="103000" />
+      <workItem from="1647425780075" duration="3113000" />
+      <workItem from="1647488387467" duration="3420000" />
+      <workItem from="1647508983512" duration="241000" />
+      <workItem from="1651896620122" duration="768000" />
+      <workItem from="1651897404154" duration="1237000" />
+      <workItem from="1651903740778" duration="148000" />
+      <workItem from="1651903899231" duration="104000" />
+      <workItem from="1652774227268" duration="4000" />
+      <workItem from="1652774298022" duration="76000" />
+      <workItem from="1652774507613" duration="27000" />
+      <workItem from="1652927299728" duration="320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git init" />
+    <option name="LAST_COMMIT_MESSAGE" value="git init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/controller/TransportController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/TransportServiceImpl.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/service/impl/TransportServiceImpl.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tms_driver/src/test/java/CurryTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tms_driver/src/test/java/CurryTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tms_driver/src/test/java/CurryTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tms_driver/src/test/java/CurryTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/config/AuthFilter.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/config/AuthFilter.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/RedisUtil.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

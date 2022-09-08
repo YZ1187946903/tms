@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.kj0901.tms.base.dao.GoodsLockDao">
+    <delete id="deleteList">
+        delete from tms_goods_lock
+        where id in
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            #{item.id}
+        </foreach>
+    </delete>
+
+    <select id="getTimeOutList" parameterType="Integer" resultType="GoodsLock">
+        select *
+        from tms_goods_lock
+        where (now()-`create_time`)>#{outTime}
+    </select>
+
+
+</mapper>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.kj0901.tms.base.dao.NeedGoodsDao">
+    <insert id="insertList" parameterType="list">
+        insert into `tms_need_goods`
+            (
+            id,
+            need_id,
+            goods_id,
+            goods_num,
+            create_time
+            )
+        values
+        <foreach collection="list" item="item" separator="," >
+            (
+            #{item.id},
+            #{item.needId},
+            #{item.goodsId},
+            #{item.goodsNum},
+            #{item.createTime}
+            )
+        </foreach>
+    </insert>
+
+    <select id="selectByIds" resultType="NeedGoods">
+        select
+            *
+        from tms_need_goods
+        where id in
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+
+    <update id="endNgByList" >
+        update
+            tms_need_goods
+        set
+            status = 4,
+            end_time = now()
+        where id in
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </update>
+
+
+    <update id="updateNgByList" >
+        update
+        tms_need_goods
+        set
+        status = #{arg1}
+        <if test="arg1==2">
+            ,load_time = #{arg2}
+        </if>
+        <if test="arg1==3">
+            ,send_time = #{arg2}
+        </if>
+        where id in
+        <foreach collection="arg0" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+
+    </update>
+
+    <update id="updateByNgList" >
+        update
+        tms_need_goods
+        set
+        truck_id = #{list[0].truckId},
+        driver_id = #{list[0].driverId}
+        where id in
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            #{item.id}
+        </foreach>
+    </update>
+
+    <select id="getListByNeedId" parameterType="map" resultType="cn.kj0901.tms.base.entity.dto.NeedGoodsInfoDTO">
+        SELECT
+            n.id,
+            n.goods_num,
+            n.status,
+            g.goods_name goodsName,
+            t.truck_num truckNum,
+            d.`name` driverName,
+            u.mobile,
+            w.`name` warehouseName,
+            n.create_time createTime,
+            s.name storeName
+        FROM
+            tms_need_goods n
+            LEFT JOIN tms_need tn ON n.need_id = tn.id
+            LEFT JOIN tms_store s ON tn.store_id = s.id
+            LEFT JOIN tms_truck t ON n.truck_id = t.id
+            LEFT JOIN tms_goods g ON n.goods_id = g.id
+            LEFT JOIN tms_driver d ON n.driver_id = d.id
+            LEFT JOIN tms_user u ON d.id = u.id
+            LEFT JOIN tms_warehouse w ON w.id = g.warehouse_id
+        WHERE
+            n.del_state = 0
+            <if test="transportId!=null and transportId!=''">
+                and n.transport_id = #{transportId}
+            </if>
+            <if test="needId!=null and needId!=''">
+                and n.need_id = #{needId}
+            </if>
+            <if test="needId!=null and needId!=''">
+                and n.need_id = #{needId} and n.temp_status=0
+            </if>
+            <if test="status!=null">
+                and n.status = #{status}
+            </if>
+            <if test="needStatus!=null">
+                and tn.status = #{needStatus}
+            </if>
+            <if test="tempStatus!=null">
+                and n.temp_status = #{tempStatus}
+            </if>
+
+
+            <if test="goodsName!=null and goodsName!=''">
+                and g.`goods_name` like CONCAT('%',#{goodsName},'%')
+            </if>
+            <if test="warehouseName!=null and warehouseName!=''">
+                and  w.`name` like CONCAT('%',#{warehouseName},'%')
+            </if>
+            <if test="storeName!=null and storeName!=''">
+                and  s.`name` like CONCAT('%',#{storeName},'%')
+            </if>
+
+        order by n.create_time
+    </select>
+
+    <update id="updateTempStatusByIdList" >
+        update
+        tms_need_goods
+        set
+            temp_status = #{tempStatus}
+        where id in
+        <foreach collection="ids" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+
+    </update>
+    <update id="updateTransportInfoByList">
+        update
+        tms_need_goods
+        set
+        transport_id =#{transport.id},
+        truck_id =#{transport.truckId},
+        driver_id =#{transport.driverId},
+        status=1,
+        temp_status = 0
+        where id in
+        <foreach collection="ids" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+
+
+    </update>
+
+
+
+</mapper>

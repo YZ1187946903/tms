@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.kj0901.tms.base.dao.NeedDao">
+    <update id="endStatusByList">
+        update
+        tms_need
+        set
+            status = 2
+        where id in
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+
+    </update>
+
+    <select id="getNeedInfoList" parameterType="map" resultType="cn.kj0901.tms.base.entity.dto.NeedInfoDTO">
+        select
+            n.id,
+            n.status,
+            n.create_time createTime,
+            s.name storeName,
+            s.store_mobile storeMobile
+        from
+            tms_need n
+            left join tms_store s on n.store_id = s.id
+        where
+            n.del_state = 0
+            <if test="id!=null">
+                and n.id = #{id}
+            </if>
+            <if test="storeName!=null">
+                and s.name like CONCAT('%',#{name},'%')
+            </if>
+            <if test="storeMobile!=null">
+                and s.store_mobile like CONCAT('%',#{storeMobile},'%')
+            </if>
+        order by n.status ,n.create_time
+    </select>
+
+
+</mapper>

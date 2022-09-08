@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.kj0901.tms.base.dao.TransportTempDao">
+    <select id="getTranTempList" parameterType="map" resultType="cn.kj0901.tms.base.entity.dto.TranTempDTO">
+        select
+            t.id,
+            t.admin_id,
+            t.need_goods_id,
+            s.goods_num goodsNum,
+            g.goods_name goodsName,
+            w.name warehouseName,
+            o.name storeName
+        from tms_transport_temp t
+        left join tms_need_goods s on s.id = t.need_goods_id
+        left join tms_goods g on g.id = s.goods_id
+        left join tms_warehouse w on w.id = g.warehouse_id
+        left join tms_need n on n.id = s.need_id
+        left join tms_store o on o.id = n.store_id
+        where t.admin_id=#{adminId}
+    </select>
+
+    <insert id="addByList">
+        insert into tms_transport_temp
+        values
+        <foreach collection="list" item="item" separator=",">
+            (
+            #{item.id},#{item.adminId},#{item.needGoodsId}
+            )
+        </foreach>
+
+    </insert>
+</mapper>
