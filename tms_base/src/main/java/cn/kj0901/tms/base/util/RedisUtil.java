@@ -9,9 +9,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * KJ0901
- *
- * @Description :
- * @Author : Aedes
  * @Date: 2021/4/18 14:36
  */
 @Component
@@ -27,8 +24,7 @@ public class RedisUtil {
 
 
     public String getToken(String token) {
-        ValueOperations<String, String> valueOperations = redisTemplate.opsForValue();
-        return valueOperations.get(token).toString();
+        return redisTemplate.opsForValue().get(token);
     }
 
     public void setMsgCode(String code, String phone) {

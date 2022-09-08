@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc895b6-3fed-4e09-ab3c-decb492c5a93" name="Default Changelist" comment="git init" />
+    <list default="true" id="3fc895b6-3fed-4e09-ab3c-decb492c5a93" name="Default Changelist" comment="修复token过期报错">
+      <change beforePath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/RedisUtil.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -296,7 +298,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git init" />
-    <option name="LAST_COMMIT_MESSAGE" value="git init" />
+    <MESSAGE value="修复token过期报错" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复token过期报错" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -345,11 +348,6 @@
           <url>file://$PROJECT_DIR$/tms_manage/src/main/java/cn/kj0901/tms/manage/config/AuthFilter.java</url>
           <line>68</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/RedisUtil.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
