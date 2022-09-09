@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fc895b6-3fed-4e09-ab3c-decb492c5a93" name="Default Changelist" comment="修复token过期报错">
-      <change beforePath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/tms_base/src/main/java/cn/kj0901/tms/base/util/RedisUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="3fc895b6-3fed-4e09-ab3c-decb492c5a93" name="Default Changelist" comment="修复token过期报错" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +83,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="settings.editor.splitter.proportion" value="0.25076452" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
